@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+
+svg {
+  font-family: "Nunito", sans-serif;
+}
+
+.chart-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #76639a;
+  margin-bottom: 24px;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 14px;
+}
+
+.chart-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 14px auto 0;
+  background: linear-gradient(to right, transparent, #b9a6dc, transparent);
+}
+
+.chart-container {
+  padding: 32px 40px;
+  border-radius: 20px;
+  width: fit-content;
+  max-width: 100%;
+}
+
+body {
+  background-color: #fbf9fe;
+  margin: 0;
+  min-height: 100vh;
+}
+#root {
+  padding: 30px;
+}
